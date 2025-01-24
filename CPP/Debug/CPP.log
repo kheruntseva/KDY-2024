@@ -1,0 +1,24 @@
+﻿Сборка начата 02.01.2025 16:37:22.
+Уровень детализации журнала: Normal.     1>Проект "D:\проекты 3 сем\Курсовой КПО\код копия\CPP\CPP.vcxproj" в узле 3 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\CPP.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Result.cpp
+         Result.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\проекты 3 сем\Курсовой КПО\код копия\KDY-2024\Debug\CPP.exe" /INCREMENTAL /ILK:"Debug\CPP.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\проекты 3 сем\Курсовой КПО\код копия\KDY-2024\Debug\CPP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\проекты 3 сем\Курсовой КПО\код копия\KDY-2024\Debug\CPP.lib" /MACHINE:X86 Debug\Result.obj
+     1>MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+     1>D:\проекты 3 сем\Курсовой КПО\код копия\KDY-2024\Debug\CPP.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+     1>Сборка проекта "D:\проекты 3 сем\Курсовой КПО\код копия\CPP\CPP.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\проекты 3 сем\Курсовой КПО\код копия\CPP\CPP.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+         D:\проекты 3 сем\Курсовой КПО\код копия\KDY-2024\Debug\CPP.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:01.19
