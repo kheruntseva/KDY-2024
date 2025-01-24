@@ -1,0 +1,47 @@
+Fact is foo(a is num) is num
+{
+	res => 1;
+
+	For(1, a, 1, el => {
+		res = mult(res, el, 6);
+	});
+
+	return res;
+}
+
+main
+{
+	w => Fact(3);
+	
+	(w == 6) ? 
+	{
+		`w ravno 6`
+	} : {
+		`w ne ravno 6`
+	}
+
+	d=>1;
+	k=>3;
+
+	(d>k)?
+	{
+	`true`
+	}:{
+	`false`
+	}
+	dn=>4;
+
+
+
+	x=>4;
+	y=>2;
+	xy=>x|y;
+	ab=>x&y;
+
+	sm2=>'s';
+	console(`something`, sm2);
+
+	as is bool;
+	kdy=>false;
+
+}
